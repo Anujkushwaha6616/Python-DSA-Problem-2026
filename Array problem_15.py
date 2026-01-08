@@ -1,3 +1,15 @@
+'''
+Problem
+
+Given an unsorted array, find the smallest positive number that is missing.
+
+Example
+
+Input:
+[3, 4, -1, 1]
+Output:
+2
+'''
 def first_missing_positive(arr):
     arr_set = set(arr)
     smallest = 1
@@ -9,4 +21,5 @@ def first_missing_positive(arr):
 
 # Example
 print(first_missing_positive([3, 4, -1, 1]))
+
 
