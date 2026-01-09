@@ -34,10 +34,11 @@ def subarrays_with_sum(arr, target):
         mp[prefix_sum].append(i)
 
     return result
-
+# Example usage
 arr = [1, 2, 3, -3, 4, -2, 2]
 target = 3
 ans = subarrays_with_sum(arr, target)
 for sub in ans:
     print(sub)
+
 
