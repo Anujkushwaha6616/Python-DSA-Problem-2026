@@ -1,3 +1,19 @@
+'''
+Problem Statement:
+
+You are given an array with both positive and negative numbers.
+Rearrange the array so that numbers appear in this order:
+positive, negative, positive, negative...
+Order does not need to be maintained.
+
+Example
+
+Input:
+arr = [3, 1, -2, -5, 8, -9]
+
+Output:
+[3, -2, 1, -5, 8, -9]
+'''
 def rearrange_alt(arr):
     pos = []
     neg = []
@@ -32,3 +48,4 @@ def rearrange_alt(arr):
 
 arr = [3, 1, -2, -5, 8, -9]
 print(rearrange_alt(arr))
+
