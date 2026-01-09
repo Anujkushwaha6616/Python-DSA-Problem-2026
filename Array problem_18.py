@@ -45,7 +45,8 @@ def rearrange_alt(arr):
         turn_pos = not turn_pos
 
     return res
-
+# Example usage
 arr = [3, 1, -2, -5, 8, -9]
 print(rearrange_alt(arr))
+
 
