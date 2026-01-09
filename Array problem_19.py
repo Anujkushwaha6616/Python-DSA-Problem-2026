@@ -1,3 +1,22 @@
+'''
+Problem Statement:
+
+You are given an array and a target sum.
+Find all subarrays whose sum is equal to the target.
+Elements can be positive or negative.
+
+Example
+
+Input:
+arr = [1, 2, 3, -3, 4, -2, 2]
+target = 3
+
+Output:
+[1, 2]
+[3]
+[3, -3, 4, -2, 2]
+[4, -2, 1]
+'''
 def subarrays_with_sum(arr, target):
     result = []
     prefix_sum = 0
@@ -21,3 +40,4 @@ target = 3
 ans = subarrays_with_sum(arr, target)
 for sub in ans:
     print(sub)
+
