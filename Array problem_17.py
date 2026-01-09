@@ -28,7 +28,8 @@ def longest_consecutive(nums):
             longest = max(longest, length)
 
     return longest
-
+# Example usage
 arr = [100, 4, 200, 1, 3, 2]
 print(longest_consecutive(arr))
+
 
